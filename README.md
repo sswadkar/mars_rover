@@ -100,7 +100,7 @@ Download the [DHTLib](https://www.circuitbasics.com/wp-content/uploads/2015/10/D
 
 ###### Arduino DS3231
 
-Download the [DS3231](https://github.com/rodan/ds3231) library and export it into Arduino
+Download the [DS3231](https://github.com/msparks/arduino-ds1302) library and export it into Arduino
 
 Go into File->Examples->arduino_ds3231_master->set_clock
 
