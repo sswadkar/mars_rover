@@ -22,7 +22,7 @@ The code is in the files and this [Tinkercad](https://www.tinkercad.com/things/3
 
 ## JavaScript
 
-### Node.js
+#### Node.js
 
 In the JavaScript file, change the SerialPort usbmodem to the one specific to your computer (when you click Serial Monitor the numbers and letters in the top middle of the Serial Monitor and replace it with what's currently in the file)
 
@@ -38,7 +38,7 @@ That should download all the Javascript modules that `server.js` uses.
 
 ## Docker
 
-###### Docker Installation
+#### Docker Installation
 
 [Docker](https://www.docker.com/get-started) is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.
 
@@ -64,7 +64,7 @@ c2b3587af792   mongo-express   "tini -- /docker-ent…"   2 days ago   Up 13 hou
 1ab49fd629e6   mongo           "docker-entrypoint.s…"   2 days ago   Up 13 hours   0.0.0.0:27017->27017/tcp   mars_rover_mongodb_1
 ```
 
-###### MongoDB set-up
+#### MongoDB set-up
 
 Type in `localhost:8080` and it should take you to a MongoDB Express webpage that's a user interface for MongoDB
 
@@ -80,13 +80,13 @@ If all goes well, it should display data from the Arduino and if you refresh the
 
 ## Python
 
-###### Pymongo
+#### Pymongo
 
 Go into terminal and type in
 
 ```pip install pymongo```
 
-###### Matplotlib
+#### Matplotlib
 
 Go into terminal and type in
 
@@ -94,11 +94,11 @@ Go into terminal and type in
 
 ## Arduino
 
-###### Arduino DHTLib
+#### Arduino DHTLib
 
 Download the [DHTLib](https://www.circuitbasics.com/wp-content/uploads/2015/10/DHTLib.zip) library and export it into Arduino
 
-###### Arduino DS3231
+#### Arduino DS3231
 
 Download the [DS3231](https://github.com/msparks/arduino-ds1302) library and export it into Arduino
 
