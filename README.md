@@ -108,7 +108,9 @@ And set the RTC Clock to the current time (explained in file) so that the RTC Cl
 
 ## Running the programs
 
-Connect the Arduino via the USB cable and in one terminal type in 
+Connect the Arduino via the USB cable and upload the Arduino code to your Arduino. Lines 24 and 25 will need to be changed for calibration (line 24 is a known wind speed you've measured and line 25 is the max amount of rotations you've seen your windmill produce).
+
+Then, in terminal, type in 
 
 ```node server.js```
 
