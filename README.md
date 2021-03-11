@@ -44,7 +44,7 @@ That should download all the Javascript modules that `server.js` uses.
 
 To download docker
 1. [Mac OS](https://docs.docker.com/docker-for-mac/install/)
-2. [Windows](https://docs.docker.com/docker-for-windows/install/)
+2. [Windows](https://docs.docker.com/docker-for-windows/install-windows-home/)
 
 Once you have Docker downloaded open up terminal and type in
 
