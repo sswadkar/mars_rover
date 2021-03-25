@@ -135,7 +135,7 @@ Go into File->Examples->arduino_ds3231_master->set_clock
 
 And set the RTC Clock to the current time (explained in file) so that the RTC Clock Module is up to date
 
-## Running the programs
+## Directions for Operating the Instrument
 
 Connect the Arduino via the USB cable and upload the Arduino code to your Arduino. Lines 24 and 25 will need to be changed for calibration (line 24 is a known wind speed you've measured and line 25 is the max amount of rotations you've seen your windmill produce).
 
