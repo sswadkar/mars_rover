@@ -145,6 +145,8 @@ Then, in terminal, type in
 
 This will begin the data collection process
 
+You can start simulating a Mars rover moving on the surface, and the data will automatically be collected every second.
+
 **The Python Mapping Program will not update with every new addition to the database so run it at the end**
 
 Once you're done collecting the data, Ctrl C in the terminal that's running `server.js`
