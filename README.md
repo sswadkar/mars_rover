@@ -39,6 +39,9 @@ The code is in the files and this [Tinkercad](https://www.tinkercad.com/things/3
 2. [Photoresistor](https://www.tinkercad.com/things/3Bx4iry3SNl-glorious-juttuli-waasa/editel?sharecode=aK2YVIqy-7f960M9g8wX9HleBGZAU93_4haH3hX_W7Y)
 3. [RTC Clock Module](https://www.instructables.com/Arduino-Nano-DS1302-Real-Time-ClockRTC-With-Visuin/)
 
+## Build Instructions
+
+
 ## Dependencies
 1. Node.js
 2. Docker
@@ -156,6 +159,10 @@ In the same terminial, type in
 ```python backend.py``` 
 
 A new window should pop-up. This window is the MatPlotLib map that the program generated. You can pan/zoom around in order to access specific data points. When you click a certain data point, the time, temperature, humidity, and wind speed for that specific point will be displayed in your terminal.
+
+
+
+
 
 ## Known Issues
 
