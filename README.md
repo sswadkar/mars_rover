@@ -1,5 +1,5 @@
-![image](https://user-images.githubusercontent.com/63820563/112520863-3f235380-8d72-11eb-8887-e8e97a85b63a.png)
 
+<img src="https://user-images.githubusercontent.com/63820563/112520863-3f235380-8d72-11eb-8887-e8e97a85b63a.png" width="100" height="100">
 # Mars Environmental Neteorological Sensor
 Using Arduino to measure temperature, humidity, and wind speed; uploading that data to a MongoDB connected to Docker; and reading that data in Python and turning into an interactive map with data collection points.
 
