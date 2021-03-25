@@ -2,12 +2,9 @@ from pymongo import MongoClient #pip install pymongo
 import matplotlib.pyplot as plt #pip install matplotlib
 
 def on_pick(event):
-    artist = event.artist
     xmouse, ymouse = event.mouseevent.xdata, event.mouseevent.ydata
     x, y = artist.get_xdata(), artist.get_ydata()
     ind = event.ind
-    print('Artist picked:', event.artist)
-    print('Pick between vertices {} and {}'.format(min(ind), max(ind)+1))
     print('x, y of mouse: {:.2f},{:.2f}'.format(xmouse, ymouse))
     print('Data point:', x[ind[0]], y[ind[0]])
     xcoor = int(x[ind[0]])
