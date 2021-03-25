@@ -2,7 +2,7 @@
 #include <DS1302.h>
 #include <dht.h>
 
-int period = 1000;
+int period = 1000; //time
 unsigned long time_now = 0;
 int lightVals[100];
 int index = 0;
