@@ -1,6 +1,32 @@
 # Arduino Weather Collector
 Using Arduino to measure temperature, humidity, and wind speed; uploading that data to a MongoDB connected to Docker; and reading that data in Python and turning into an interactive map with data collection points.
 
+## Methods
+
+1. Although not integrated into MEMS, the rover should have a speedometer that the program can access to determine whether the rover is moving
+
+2. If the rover is moving, MEMS will turn on and start collecting data periodically: every one second
+
+3. Every second MEMS will collect 4 different things
+  * Measures wind speed separately (does the following steps over the course of a second)
+    * Regardless of whether there is wind or not, the photoresistor creates an array of light values over a second
+    * MEMS measures the number of times the wind turbine passes over the photoresistor to count rotations
+    * Compares the number of rotations to a calibrated wind speed ratio that’s predetermined
+    * Creates an output of wind speed in miles per hour
+  * The temperature and Humidity sensor collects two pieces of instantaneous data
+    * Temperature reading
+    * Humidity value
+  * RTC Clock Module collects time at which the data was collected
+  * At the end of the second, the Arduino outputs the time the data was collected, the temperature, the humidity, and the wind speed in mph
+  * MEMS has its own designated database that is connected to the rover’s Linux-based system
+    * The Arduino directly outputs the temperature, humidity, wind speed, and time into the database so that once MEMS isn’t in use the data isn’t lost
+
+4. After MEMS has sent the data to its local database the process repeats itself (go back to step 3) until the end condition has been met
+
+5. Once the rover stops moving, MEMS will stop collecting data as the rover is now stationary
+  * This is to preserve the sensors and not unnecessarily collect data when unneeded
+
+
 ## Arduino Sensors
 
 The code is in the files and this [Tinkercad](https://www.tinkercad.com/things/3Bx4iry3SNl-glorious-juttuli-waasa/editel?sharecode=aK2YVIqy-7f960M9g8wX9HleBGZAU93_4haH3hX_W7Y) link should explain how to wire the temperature module and the photoresistor so that it works with the code. The code won't run without the dependencies (linked below).
