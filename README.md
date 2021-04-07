@@ -32,8 +32,21 @@ Using Arduino to measure temperature, humidity, and wind speed; uploading that d
 5. Once the rover stops moving, MEMS will stop collecting data as the rover is now stationary
   * This is to preserve the sensors and not unnecessarily collect data when unneeded
 
+## Materials
 
-## Arduino Sensors
+1. Arduino
+2. Photoresistor
+3. Temperature Sensor
+4. RTC Clock Module
+5. Breadboard
+6. 8 male-to-male wires
+7. 5 male-to-female wires
+8. 1 resistor
+9. 8.5 x 11 in. paper
+10. Crab hammer
+11. Elevated base
+
+### Arduino Sensors
 
 The code is in the files and this [Tinkercad](https://www.tinkercad.com/things/3Bx4iry3SNl-glorious-juttuli-waasa/editel?sharecode=aK2YVIqy-7f960M9g8wX9HleBGZAU93_4haH3hX_W7Y) link should explain how to wire the temperature module and the photoresistor so that it works with the code. The code won't run without the dependencies (linked below).
 
@@ -44,6 +57,51 @@ The code is in the files and this [Tinkercad](https://www.tinkercad.com/things/3
 
 ## Build Instructions
 
+### Step 1. Windmill base
+* Create an origami windmill base: Instructions obtained from this [link](https://www.origami-resource-center.com/windmill-base.html)
+ * Cut the rectangular sheet of paper into a square sheet of paper
+ * Take a square sheet of paper and fold it in half left-to-right, and then unfold.
+ * Fold in half again (top-to-bottom), and unfold.
+ * Fold the left-edge and right-edge of the paper towards the center to align with the vertical crease. Unfold.
+ * Fold the top-edge and bottom-edge of the paper towards the center to align with the horizontal crease. Unfold.
+ * Fold the paper along the diagonal in both directions to form a X-shaped crease. Unfold. Flip the paper over.
+ * Perform the blintz fold (fold the four corners towards the center of the paper). Unfold.
+ * Turn the paper over: step 5a shows the crease pattern. You are now ready to collapse the paper into a windmill base;
+ * Refold the crease located ¼ of the distance from the bottom edge of the paper. At the same time, refold the crease located ¼ of the way from the right edge of the paper.
+ * An extra flap of paper will be formed. Swivel this extra flap of paper towards the right. Alternatively, you can swivel the flap downwards, but you have to be consistent as to which direction to fold subsequent flaps.
+ * Rotate the paper clockwise 90 degrees.
+ * Repeat the process by refolding the crease ¼ from the right edge of the paper. A second flap will be formed: swivel it towards the right.
+ * Rotate the paper clockwise 90 degrees.
+ * Repeat the process one last time: valley fold the bottom layer ¼ from the right edge of the paper. This forms two more flaps, swivel the lower flap towards the  right and top flap upwards.
+* Take your crab hammer and dot the middle of the hammer with a pen/marker
+* Poke a hole through the center of your origami turbine and hammer the tack into the point you marked on your crab hammer
+* Attach your crab hammer to a base of your choice as long as the windmill base is hovering over the ground and the hammer is perpendicular to your base
+
+### Step 2. Wiring terminals
+* Connect 1 male-to-male wire from 5V to one positive terminal
+* Connect 1 male-to-male wire from 3.3V to the other positive terminal
+* Connect 1 wire from GND to any ground terminal
+
+### Step 3. Setting up the Temperature Module
+* Place the temperature module onto the breadboard.
+* Connect 1 male-to-male wire from the positive (+) port of the Temperature Module to the 5.5V red terminal.
+* Connect 1 male-to-male wire from out port to digital port 8 on the Arduino.
+* Connect 1 male-to-male wire from the ground (-) port of the Temperature Module to the ground port.
+
+### Step 4. Setting up the Photoresistor
+* Place the photoresistor onto the breadboard.
+* Connect 1 male-to-male wire from the cathode to the 3.3V red terminal.
+* Connect 1 resistor from the anode to another terminal
+* Connect 1 male-to-male wire from the resistor to analog pin A0.
+* Connect 1 male-to-male wire from the resistor to GND black terminal.
+
+### Step 5: Setting up the RTC Clock Module
+* Place the Clock Module onto the breadboard
+* Connect 1 male-to-female wire from VCC to 5V red terminal.
+* Connect 1 male-to-female wire from GND to GND black terminal.
+* Connect 1 male-to-female wire from CLK to port 7 on the Arduino.
+* Connect 1 male-to-female wire from TAD to port 6 on the Arduino.
+* Connect 1 male-to-female wire from RSD to port 5 on the Arduino.
 
 ## Dependencies
 1. Node.js
