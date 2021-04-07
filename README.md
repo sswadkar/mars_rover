@@ -155,7 +155,7 @@ You can start simulating a Mars rover moving on the surface, and the data will a
 
 **The Python Mapping Program will not update with every new addition to the database so run it at the end**
 
-Once you're done collecting the data, Ctrl C in the terminal that's running `server.js`
+Once you're done collecting the data, press Ctrl+C in the terminal that's running `server.js`
 
 In the same terminial, type in 
 
