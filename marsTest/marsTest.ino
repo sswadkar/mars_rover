@@ -17,7 +17,7 @@ int threshold = 150;
 int currentVal;
 int rotations;
 const int topSpeed = 55; //Since windmills will vary, I used a dyson fan (with a top speed of 55 mph wind speed)
-const int topRotations = 26; //max amount of rotations I got with the arduino test was 
+const int topRotations = 26; //max amount of rotations I got with the arduino test was 26 rotations
 float windSpeed;
 
 String dayAsString(const Time::Day day) {
@@ -83,6 +83,7 @@ void loop()
             }
           }
         }
+        //Serial.println(rotations) uncomment this line when you're trying to find the maximum amount of rotations your windmill base hits 
         windSpeed = topSpeed/topRotations*rotations;
         Serial.println(windSpeed);
         memset(lightVals, 0, sizeof(lightVals));
