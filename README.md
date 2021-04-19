@@ -51,7 +51,7 @@ The code is in the files and this [Tinkercad](https://www.tinkercad.com/things/3
 3. [RTC Clock Module](https://www.instructables.com/Arduino-Nano-DS1302-Real-Time-ClockRTC-With-Visuin/)
 
 
-### Methods
+## Methods
 
 1. Although not integrated into MEMS, the rover should have a speedometer that the program can access to determine whether the rover is moving
 
@@ -251,17 +251,26 @@ The temperature module is used for collecting the temperature in celsius and rel
 The RTC Clock Module is used for collecting time and date data for other information collected from the sensor, in order to identify trends and other insights over time. Data is recorded every second, which is determined using the Arduino’s internal timer. The internal clock within the Arduino resets when the Arduino shuts off, but the RTC Clock Module is powered by a separate battery, which guarantees uptime in order to collect more accurate results.
 
 ## Citations
-"Complete Guide for DHT11/DHT22 Humidity and Temperature Sensor With Arduino" ["Complete Guide for DHT11/DHT22 Humidity and Temperature Sensor With Arduino"]. Random Nerd Tutorials, 25 Apr. 2019, randomnerdtutorials.com/complete-guide-for-dht11dht22-humidity-and-temperature-sensor-with-arduino/. Accessed 15 Apr. 2021.
-Earth Observing Laboratory. "What is a Dropsonde?" UCAR, www.eol.ucar.edu/content/what-dropsonde. Accessed 21 Mar. 2021.
-Global Hydrology Resource Center. "Genesis and Rapid Intensification Processes (GRIP)." NASA, ghrc.nsstc.nasa.gov/home/field-campaigns/grip. Accessed 21 Mar. 2021.
-"How to Use a Real-Time Clock Module." Arduino Project Hub, create.arduino.cc/projecthub/MisterBotBreak/how-to-use-a-real-time-clock-module-ds3231-bc90fe. Accessed 19 Apr. 2021.
-Jet Propulsion Laboratory. "Mars Science Laboratory Curiosity Rover." NASA, www.jpl.nasa.gov/missions/mars-science-laboratory-curiosity-rover-msl. Accessed 21 Mar. 2021.
-NASA. "Aircraft and Instruments." NASA, www.nasa.gov/mission_pages/hurricanes/missions/grip/instruments/index.html#dc8. Accessed 21 Mar. 2021.
----. "GRIP Hurricane Mission." NASA, www.nasa.gov/mission_pages/hurricanes/missions/grip/overview/. Accessed 21 Mar. 2021.
----. "Mars Exploration Program." NASA, mars.nasa.gov/mars-exploration/missions/mars-science-laboratory/. Accessed 21 Mar. 2021.
----. "Mars 2020 Mission Perseverance Rover." NASA, mars.nasa.gov/mars2020/. Accessed 21 Mar. 2021.
 
----. "MEDA." NASA, mars.nasa.gov/mars2020/spacecraft/instruments/meda/. Accessed 21 Mar. 2021.
-Origami Resource Center. "Origami Windmill Base." origami-resource-center.com, 2020, www.origami-resource-center.com/windmill-base.html. Accessed 19 Apr. 2021.
+* "Complete Guide for DHT11/DHT22 Humidity and Temperature Sensor With Arduino" ["Complete Guide for DHT11/DHT22 Humidity and Temperature Sensor With Arduino"]. Random Nerd Tutorials, 25 Apr. 2019, randomnerdtutorials.com/complete-guide-for-dht11dht22-humidity-and-temperature-sensor-with-arduino/. Accessed 15 Apr. 2021.
+Earth Observing Laboratory. "What is a Dropsonde?" UCAR, www.eol.ucar.edu/content/what-dropsonde. Accessed 21 Mar. 2021.
+
+* Global Hydrology Resource Center. "Genesis and Rapid Intensification Processes (GRIP)." NASA, ghrc.nsstc.nasa.gov/home/field-campaigns/grip. Accessed 21 Mar. 2021.
+
+* "How to Use a Real-Time Clock Module." Arduino Project Hub, create.arduino.cc/projecthub/MisterBotBreak/how-to-use-a-real-time-clock-module-ds3231-bc90fe. Accessed 19 Apr. 2021.
+
+* Jet Propulsion Laboratory. "Mars Science Laboratory Curiosity Rover." NASA, www.jpl.nasa.gov/missions/mars-science-laboratory-curiosity-rover-msl. Accessed 21 Mar. 2021.
+
+* NASA. "Aircraft and Instruments." NASA, www.nasa.gov/mission_pages/hurricanes/missions/grip/instruments/index.html#dc8. Accessed 21 Mar. 2021.
+
+* ---. "GRIP Hurricane Mission." NASA, www.nasa.gov/mission_pages/hurricanes/missions/grip/overview/. Accessed 21 Mar. 2021.
+
+* ---. "Mars Exploration Program." NASA, mars.nasa.gov/mars-exploration/missions/mars-science-laboratory/. Accessed 21 Mar. 2021.
+
+* ---. "Mars 2020 Mission Perseverance Rover." NASA, mars.nasa.gov/mars2020/. Accessed 21 Mar. 2021.
+
+* ---. "MEDA." NASA, mars.nasa.gov/mars2020/spacecraft/instruments/meda/. Accessed 21 Mar. 2021.
+
+* Origami Resource Center. "Origami Windmill Base." origami-resource-center.com, 2020, www.origami-resource-center.com/windmill-base.html. Accessed 19 Apr. 2021.
 
 
