@@ -105,7 +105,7 @@ The code is in the files and this [Tinkercad](https://www.tinkercad.com/things/3
 
 ### Step 3. Setting up the Temperature Module
 * Place the temperature module onto the breadboard.
-* Connect 1 male-to-male wire from the positive (+) port of the Temperature Module to the 5.5V red terminal.
+* Connect 1 male-to-male wire from the positive (+) port of the Temperature Module to the 5V red terminal.
 * Connect 1 male-to-male wire from out port to digital port 8 on the Arduino.
 * Connect 1 male-to-male wire from the ground (-) port of the Temperature Module to the ground port.
 
