@@ -1,5 +1,4 @@
 express
-path
-fs
+serialport
 mongodb
 body-parser
