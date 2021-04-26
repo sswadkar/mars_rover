@@ -61,10 +61,10 @@ void printTime() {
 }
 void loop() 
 { 
-  lightCal = analogRead(sensorPin); //one measurement every 17.5438596 seconds
+  lightCal = analogRead(sensorPin);
   lightVals[index] = lightCal;
   index++;
-  if(millis() >= time_now + period){
+  if(millis() >= time_now + period) {
         time_now += period;
         printTime();
         int chk = DHT.read11(DHT11_PIN);
