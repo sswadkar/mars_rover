@@ -121,8 +121,8 @@ The code is in the files and this [Tinkercad](https://www.tinkercad.com/things/3
 * Connect 1 male-to-female wire from VCC to 5V red terminal.
 * Connect 1 male-to-female wire from GND to GND black terminal.
 * Connect 1 male-to-female wire from CLK to port 7 on the Arduino.
-* Connect 1 male-to-female wire from TAD to port 6 on the Arduino.
-* Connect 1 male-to-female wire from RSD to port 5 on the Arduino.
+* Connect 1 male-to-female wire from DAT to port 6 on the Arduino.
+* Connect 1 male-to-female wire from RST to port 5 on the Arduino.
 
 ## Dependencies
 1. Node.js
