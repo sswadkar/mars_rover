@@ -1,6 +1,6 @@
 <html>
 <p align="left">
-<img src="https://imgur.com/a/XRlwwzl" width="220" height="200">
+<img src="https://user-images.githubusercontent.com/63820563/112520863-3f235380-8d72-11eb-8887-e8e97a85b63a.png" width="220" height="200">
 </p>
 </html>
 
